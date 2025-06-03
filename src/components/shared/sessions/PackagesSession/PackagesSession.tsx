@@ -93,7 +93,7 @@ export const PackagesSession = () => {
       <div className="w-full flex justify-end gap-10 pr-10">
         <div
           onClick={() => prev()}
-          className="h-14 w-14 rounded-full border-[0.5px] flex items-center justify-center cursor-pointer transition-colors bg-white hover:bg-blueHard hover:text-white"
+          className="h-14 w-14 rounded-full border-[0.5px] flex items-center justify-center cursor-pointer transition-colors bg-white hover:bg-blueHard hover:text-white "
         >
           <div className="rotate-180">
             <ArrowRight className="hover" color="#1b2543" />
@@ -118,13 +118,7 @@ export const PackagesSession = () => {
           }}
         >
           {listCard.map((item, index) => (
-            <div
-              key={index}
-              className="flex-shrink-0"
-              style={{
-                width: cardWidthWithGap - 16,
-              }}
-            >
+            <div key={index} className="flex-shrink-0">
               <Card
                 title={item.title}
                 service={item.service}
