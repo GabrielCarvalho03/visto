@@ -90,21 +90,21 @@ export const PackagesSession = () => {
         </h1>
       </div>
 
-      <div className="w-full flex justify-end gap-10 pr-10 md:hidden">
+      <div className="w-full flex justify-end gap-10 pr-10">
         <div
           onClick={() => prev()}
-          className="h-14 w-14 rounded-full border-[0.5px] flex items-center justify-center cursor-pointer transition-colors bg-white hover:bg-blueHard"
+          className="h-14 w-14 rounded-full border-[0.5px] flex items-center justify-center cursor-pointer transition-colors bg-white hover:bg-blueHard hover:text-white"
         >
           <div className="rotate-180">
-            <ArrowRight color="#1b2543" />
+            <ArrowRight className="hover" color="#1b2543" />
           </div>
         </div>
 
         <div
           onClick={() => next()}
-          className="h-14 w-14 rounded-full border-[0.5px] flex items-center justify-center cursor-pointer transition-colors bg-white hover:bg-blueHard"
+          className="h-14 w-14 rounded-full border-[0.5px] flex items-center justify-center cursor-pointer transition-colors bg-white hover:bg-blueHard hover:text-white"
         >
-          <ArrowRight color="#1b2543" />
+          <ArrowRight />
         </div>
       </div>
 
