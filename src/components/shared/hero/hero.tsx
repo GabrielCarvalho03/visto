@@ -29,7 +29,7 @@ export const Hero = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row justify-between lg:gap-10 2xl:max-w-7xl mx-auto mt-10 lg:pl-20 px-5 2xl:p-0 ">
+    <div className="w-full flex flex-col-reverse lg:flex-row justify-between lg:gap-5 2xl:max-w-7xl mx-auto mt-10 lg:pl-20 px-5 2xl:p-0 ">
       <section className="w-full lg:w-1/2 xl:w-full flex flex-col gap-10 lg:gap-2 xl:gap-10">
         <h1 className="text-[32px] md:text-[58px] leading-[40px]  md:leading-[60px]  text-greyHard  font-medium">
           Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
@@ -53,7 +53,7 @@ export const Hero = () => {
               icon={<ArrowRight />}
             />
           </div>
-          <div className="w-full lg:w-auto flex flex-col  items-center  md:items-center lg:items-start justify-center gap-4 mt-10  md:mt-0 xl:absolute lg:bottom-0 lg:right-0">
+          <div className="w-full lg:w-auto flex flex-col  items-center  md:items-center lg:items-start justify-center gap-4 mt-16  md:mt-0 xl:absolute lg:-bottom-10 lg:right-0">
             <ProfessionalCard />
           </div>
         </div>
