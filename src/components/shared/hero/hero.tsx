@@ -47,7 +47,7 @@ export const Hero = () => {
             </span>
 
             <CallToActionButton
-              className="w-40 h-14"
+              className="w-40 h-14 text-white"
               background="blueHard"
               title="Saiba mais"
               icon={<ArrowRight />}
