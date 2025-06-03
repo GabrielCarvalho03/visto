@@ -14,7 +14,7 @@ type CardProps = {
 export const Card = ({ title, service, time, image, price }: CardProps) => {
   const [isActiveButton, setIsActiveButton] = useState(false);
   return (
-    <article className="w-full max-w-[424px] aspect-[2/3] p-4 border-[0.5px] border-[#E5E5E5] rounded-2xl">
+    <article className="w-10/12 max-w-[424px] lg:w-full aspect-[2/3] p-4 border-[0.5px] border-[#E5E5E5] rounded-2xl">
       <img src={image} alt={title} />
 
       <div className="w-full flex gap-10 items-center mt-4">

@@ -1,10 +1,11 @@
-const SquareCircle = () => (
+const SquareCircle = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="281"
     height="159"
     fill="none"
     viewBox="0 0 281 159"
+    className={props.className}
   >
     <path
       stroke="url(#paint0_linear_0_213)"
