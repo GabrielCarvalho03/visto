@@ -1,10 +1,11 @@
-const BorderCircle = (props: any) => (
+const BorderCircle = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={props.width ?? "476"}
     height={props.height ?? "87"}
     fill="none"
     viewBox="0 0 476 87"
+    className={props.className}
   >
     <path
       stroke="url(#paint0_linear_0_214)"

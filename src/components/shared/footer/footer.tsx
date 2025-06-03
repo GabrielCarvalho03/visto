@@ -65,11 +65,11 @@ export const Footer = () => {
 
   return (
     <article className="">
-      <section className=" flex justify-between w-full  relative 2xl:max-w-7xl mx-auto  mt-32 mb-20 pl-10  2xl:p-0 ">
+      <section className=" flex flex-col md:flex-row justify-between w-full  relative 2xl:max-w-7xl mx-auto  mt-32 mb-20 pl-10  2xl:p-0 ">
         <div className="w-6/12 flex flex-col justify-end">
           <span className="font-semibold">Siga em nossa redes:</span>
 
-          <div className="flex  gap-3 mt-5">
+          <div className="flex  gap-2 md:gap-3 mt-5">
             <OptionButton label="Instagram" active onClick={() => {}} />
             <OptionButton label="X" active onClick={() => {}} />
             <OptionButton label="Facebook" active onClick={() => {}} />
@@ -77,8 +77,8 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="w-6/12 flex flex-col justify-center">
-          <div className="flex justify-between pr-20 mt-5">
+        <div className="w-full md:w-6/12 flex flex-col justify-center">
+          <div className="flex justify-between md:pr-20 mt-5">
             {linksUteis.map((item) => (
               <div key={item.title}>
                 <span className=" font-family-plus-Jakarta font-semibold">
