@@ -53,7 +53,7 @@ export const Hero = () => {
               icon={<ArrowRight />}
             />
           </div>
-          <div className="w-full lg:w-auto flex flex-col  items-center  md:items-center lg:items-start justify-center gap-4 mt-10  md:mt-0 xl:absolute lg:bottom-0 lg:right-0">
+          <div className="w-full lg:w-auto flex flex-col  items-center  md:items-center lg:items-start justify-center gap-4 mt-16  md:mt-0 xl:absolute lg:-bottom-10 lg:right-0">
             <ProfessionalCard />
           </div>
         </div>
