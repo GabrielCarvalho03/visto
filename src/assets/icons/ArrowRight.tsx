@@ -5,9 +5,10 @@ const ArrowRight = (props: React.SVGProps<SVGSVGElement>) => (
     height={props.height ?? 24}
     fill="none"
     viewBox="0 0 24 24"
+    className={props.className}
   >
     <path
-      stroke={props.color ?? "#fff"}
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit="10"
