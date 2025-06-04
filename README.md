@@ -1,6 +1,7 @@
-# Tirar Visto - Landing Page
+![Captura de tela 2025-06-03 211537](https://github.com/user-attachments/assets/a64c6841-8dd4-4885-b64f-a6d8c90774e4)![Captura de tela 2025-06-03 211537](https://github.com/user-attachments/assets/08afa5ba-4601-43a8-8714-d277748edfc8)# Tirar Visto - Landing Page
 
-![Capa do Projeto](./capa.png)
+![image](https://github.com/user-attachments/assets/22ea47c9-018e-4aad-bd13-64f1f5a6e3ae)
+(./capa.png)
 
 ## ✈️ Sobre o projeto
 
@@ -15,7 +16,8 @@
 
 ## 🖼️ Prévia da Landing Page
 
-![Screenshot da landing page](./capa.png)
+![Captura de tela 2025-06-03 211537](https://github.com/user-attachments/assets/5694d85a-7e06-4c3b-9b73-e4d58bb1c952)
+(./capa.png)
 
 ## 🚀 Acesse a demo
 
