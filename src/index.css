@@ -20,7 +20,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   line-height: 130.8%;
   letter-spacing: -2%;
 }

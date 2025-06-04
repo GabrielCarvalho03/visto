@@ -9,7 +9,7 @@ import { Header } from "@/components/shared/header/header";
 
 export const Home = () => {
   return (
-    <main className="w-full min-h-screen  mt-2 ">
+    <main className="w-full min-h-screen overflow-x-hidden mt-2 ">
       <Header />
       <Hero />
       <ConsultationSection />

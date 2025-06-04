@@ -78,7 +78,7 @@ export const PackagesSession = () => {
   };
 
   return (
-    <main className="w-full flex flex-col gap-6 relative 2xl:max-w-7xl mx-auto my-32 pl-5 md:pl-10 2xl:p-0">
+    <main className="w-full flex flex-col gap-6 relative  2xl:max-w-7xl mx-auto my-32 pl-5 md:pl-10 2xl:p-0">
       <div className="w-full">
         <CallToActionButton
           className="w-16 px-12 py-2.5"
@@ -118,7 +118,13 @@ export const PackagesSession = () => {
           }}
         >
           {listCard.map((item, index) => (
-            <div key={index} className="flex-shrink-0">
+            <div
+              key={index}
+              className="flex-shrink-0 snap-start"
+              style={{
+                minWidth: "80%",
+              }}
+            >
               <Card
                 title={item.title}
                 service={item.service}
