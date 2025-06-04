@@ -1,54 +1,36 @@
-# React + TypeScript + Vite
+# Tirar Visto - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Capa do Projeto](./capa.png)
 
-Currently, two official plugins are available:
+## ✈️ Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tirar Visto** é uma landing page profissional criada para apresentar e facilitar o serviço de consultoria de vistos. Com um design limpo, objetivo e responsivo, ela oferece todas as informações necessárias para que os clientes possam iniciar seu processo de visto de forma prática e segura.
 
-## Expanding the ESLint configuration
+## 🌟 Principais destaques
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Design atrativo e responsivo**: adaptável a diferentes tamanhos de tela.
+- **Chamada para ação (CTA)** bem posicionada: "Tirar meu visto agora!".
+- **Informações claras** sobre o processo de solicitação de visto.
+- **Experiência amigável** e intuitiva para o usuário.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🖼️ Prévia da Landing Page
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![Screenshot da landing page](./capa.png)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Acesse a demo
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+🔗 [https://visto-gold.vercel.app](https://visto-gold.vercel.app)
+
+## 🛠️ Tecnologias utilizadas
+
+- **Next.js** – Framework React para aplicações web.
+- **React** – Biblioteca para construção de interfaces.
+- **Tailwind CSS** – Estilização rápida e responsiva.
+- **Vercel** – Deploy e hospedagem.
+
+## 📦 Como rodar localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/tirar-visto.git
